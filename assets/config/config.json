@@ -1,0 +1,19 @@
+{
+    "uid": 2,
+    "appId": "872c6051efb049b781947eaeb4fdb5f6",
+    "channelName": "test_channel",
+    "rtcToken": "007eJxTYPi3fOdJC8/6+m+2Xznspx6atNgy/N3LPxtvRgf+MvNRzzyvwGBhbpRsZmBqmJqWZGBimWRuYWhpYp6amJpkkpaSZJpmZrt+aUZDICNDvkcKEyMDBIL4PAwlqcUl8ckZiXl5qTkMDAA/wSUW",
+    "proxyUrl": "<---- Your Proxy Server URL ---->",
+    "serverUrl": "",
+    "tokenExpiryTime": "3004546448451684684684684",
+    "encryptionKey": "55f9ae116e715fbde00c12d86a00e4199990a182e80b4e66148e81d66a43d3c2",
+    "salt": "y2X4ayYze+gFmNlhi6Qx5pjHDF+FNc+IghhxmM6vhvI=",
+    "sampleMediaUrl": "https://www.appsloveworld.com/wp-content/uploads/2018/10/640.mp4",
+    "destinationChannelName": "destiny",
+    "destinationChannelUid": 100,
+    "destinationChannelToken": "",
+    "sourceChannelToken": "",
+    "secondChannelName": "demo2",
+    "secondChannelUid": 101,
+    "secondChannelToken": ""
+}

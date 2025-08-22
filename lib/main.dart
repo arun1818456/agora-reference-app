@@ -407,3 +407,60 @@ class MyAppState extends State<MyApp> with UiHelper {
 //       ),
 //     );
 //   }
+
+/// [ Node Js Code for Token generation ]
+
+//import express from "express";
+//import pkg from "agora-access-token";
+
+//const { RtcTokenBuilder, RtcRole } = pkg;
+//const app = express();
+//const port = 3000;
+
+// Replace with your Agora App ID and App Certificate
+//const APP_ID = "1e5767adcc5349d8812b0019c2cdb450";
+//const APP_CERTIFICATE = "65b7ac1d906e4e3586d157fc36b4e325";
+//const JWT_SECRET = "my_super_secret_key_123"
+// API to generate token
+//.get("/access_token/:channelName/:uid", async(req, res) => {
+
+//const channelName = req.params.channelName;
+//const uid = req.params.uid; 
+//  let role;
+
+//  if (req.params.role === "publisher") {
+ //   role = RtcRole.PUBLISHER;
+//  } else {
+//    role = RtcRole.SUBSCRIBER;
+//}
+
+  // Token valid for 1 hour
+//  const expireTime = 3600;
+//  const currentTimestamp = Math.floor(Date.now() / 1000);
+//  const privilegeExpireTime = currentTimestamp + expireTime;
+
+ // try {
+    // Generate token
+ //   const token = RtcTokenBuilder.buildTokenWithUid(
+ //     APP_ID,
+ //     APP_CERTIFICATE,
+  //    channelName,
+  //    parseInt(uid, 10),
+  //    role,
+  //    privilegeExpireTime
+  //  );
+ //   console.log(token);
+    
+
+//    return res.json({ token });
+//  } catch (err) {
+//    console.error(err)
+//    return res.status(500).json({ error: err.message });
+//  }
+//});
+
+//app.listen(port, () => {
+//  console.log(`Agora token server running on http://localhost:${port}`);
+//});
+
+
